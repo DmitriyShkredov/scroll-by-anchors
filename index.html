@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Маршрут — места для путешествий</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand" href="#mountains">Маршрут<span> / 01</span></a>
+      <nav aria-label="Места">
+        <a href="#mountains">Горы</a>
+        <a href="#coast">Побережье</a>
+        <a href="#forest">Лес</a>
+        <a href="#city">Город</a>
+      </nav>
+    </header>
+    <main>
+      <section id="mountains" class="mountains">
+        <div class="section-heading">
+          <span class="number">01 / ВЫШЕ ОБЛАКОВ</span>
+          <h1>Горы</h1>
+          <p>Прохладный воздух, тихие тропы и горизонт, которому нет конца.</p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85"
+          alt="Горный пик среди облаков"
+          fetchpriority="high"
+        />
+        <div class="caption">
+          <span>Туда, где можно выдохнуть</span
+          ><a href="#coast">Дальше: побережье &#8595;</a>
+        </div>
+      </section>
+      <section id="coast" class="coast">
+        <div class="section-heading">
+          <span class="number">02 / БЛИЖЕ К ВОДЕ</span>
+          <h2>Побережье</h2>
+          <p>Солёный ветер и длинный день без расписания.</p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=1600&q=85"
+          alt="Морское побережье и волны"
+          loading="lazy"
+        />
+        <div class="caption">
+          <span>Оставить спешку на берегу</span
+          ><a href="#forest">Дальше: лес &#8595;</a>
+        </div>
+      </section>
+      <section id="forest" class="forest">
+        <div class="section-heading">
+          <span class="number">03 / В СВОЁМ ТЕМПЕ</span>
+          <h2>Лес</h2>
+          <p>Свет между деревьями. Дорога, по которой не хочется торопиться.</p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=85"
+          alt="Солнечный свет в зелёном лесу"
+          loading="lazy"
+        />
+        <div class="caption">
+          <span>Немного тишины</span><a href="#city">Дальше: город &#8595;</a>
+        </div>
+      </section>
+      <section id="city" class="city">
+        <div class="section-heading">
+          <span class="number">04 / НОВЫЙ ВЗГЛЯД</span>
+          <h2>Город</h2>
+          <p>Знакомые улицы, случайные повороты и маленькие открытия.</p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1600&q=85"
+          alt="Городские здания в вечернем свете"
+          loading="lazy"
+        />
+        <div class="caption">
+          <span>У каждого места своя история</span
+          ><a href="#mountains">К началу &#8593;</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
